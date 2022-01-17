@@ -1,4 +1,16 @@
-Hello World
+<html>
+    <body id="body">
+    </body>
+    <script type="module">
+        const div = document.createElement('div');
+        div.textContent = 'Hello World';
+        div.className = 'container';
+
+        const rootElement = document.createElement('root');
+        rootElement.append(div);
+        document.body.append(rootElement);
+    </script>
+</html>
 <!-- Basic JavaScript-rendered Hello World -->
 <!-- http://localhost:3000/isolated/exercise/01.html -->
 
