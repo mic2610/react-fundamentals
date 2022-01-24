@@ -17,3 +17,19 @@
   width: 90px;
   height: 90px;
 }
+
+.light--blue--background {
+  background-color: lightblue;
+}
+
+.pink--background {
+  background-color: pink;
+}
+
+.orange--background {
+  background-color: orange;
+}
+
+.italic--font {
+  font-style: italic;
+}
